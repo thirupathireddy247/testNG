@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="hospial" parallel="tests" thread-count="2" >
+ <test name="Patient health details1">
+  <classes>
+    <class name="framework.Test6"/>
+    <!--  <class name="framework.Test7"/>-->
+          
+  </classes>
+ </test> 
+ 
+ <test name="Patient health details2">
+  <classes>
+    <class name="framework.Test6"/>
+    <!--  <class name="framework.Test7"/>-->
+          
+  </classes>
+ </test> 
+ </suite>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43" started-at="2020-10-01T10:20:36 IST" finished-at="2020-10-01T10:20:36 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="43" started-at="2020-10-01T10:20:36 IST" finished-at="2020-10-01T10:20:36 IST">
+      <class name="framework.Test5">
+        <test-method status="PASS" signature="pulse()[pri:-1, instance:framework.Test5@3e9b1010]" name="pulse" duration-ms="7" started-at="2020-10-01T10:20:36 IST" finished-at="2020-10-01T10:20:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pulse -->
+        <test-method status="PASS" signature="air()[pri:0, instance:framework.Test5@3e9b1010]" name="air" duration-ms="1" started-at="2020-10-01T10:20:36 IST" finished-at="2020-10-01T10:20:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- air -->
+        <test-method status="PASS" signature="beforevery()[pri:0, instance:framework.Test5@3e9b1010]" name="beforevery" duration-ms="1" started-at="2020-10-01T10:20:36 IST" finished-at="2020-10-01T10:20:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforevery -->
+      </class> <!-- framework.Test5 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

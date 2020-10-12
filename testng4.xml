@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="hospial">
+<parameter name="URL" value="google.com"/>
+ <test name="Regression">
+ <groups>
+ <run>
+ <include name="smoke"/>
+ </run>
+</groups>
+  <classes>
+    <class name="framework.Test1"/>
+    <class name="framework.Test2"/>
+    <class name="framework.Test3"/>
+  
+  
+  </classes>
+ </test> 
+ 
+ 
+ </suite>

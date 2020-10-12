@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [hospial]" parallel="tests">
+  <test thread-count="2" name="Patient health details(failed)" parallel="tests">
+    <classes>
+      <class name="framework.Test1">
+        <methods>
+          <include name="RespirationRate"/>
+          <include name="afterevery"/>
+          <include name="beforevery"/>
+        </methods>
+      </class> <!-- framework.Test1 -->
+    </classes>
+  </test> <!-- Patient health details(failed) -->
+  <test thread-count="2" name="patient details(failed)" parallel="tests">
+    <classes>
+      <class name="framework.Test2">
+        <methods>
+          <include name="lastexuceate"/>
+          <include name="firstexuceate"/>
+          <include name="beforeclass"/>
+          <include name="PatientAge"/>
+          <include name="afterclass"/>
+        </methods>
+      </class> <!-- framework.Test2 -->
+    </classes>
+  </test> <!-- patient details(failed) -->
+</suite> <!-- Failed suite [hospial] -->
